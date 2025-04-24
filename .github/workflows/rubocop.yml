@@ -38,7 +38,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        apt-get install libgmp3-dev
+        bundle update json
         bundle install
 
     - name: Rubocop run
