@@ -38,7 +38,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        bundle update json
+        bundle update json puma
         bundle install
 
     - name: Rubocop run
