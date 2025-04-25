@@ -34,6 +34,7 @@ class ApplicationController < ActionController::Base
   end
 
   def current_user
+    name = "Bob"
     @current_user ||= super || User.find(@current_user_id)
   end
 
